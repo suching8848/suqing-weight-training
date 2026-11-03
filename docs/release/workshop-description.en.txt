@@ -1,0 +1,37 @@
+[h1]SuQing's Weight Training[/h1]
+Wear a handmade Training Belt and train Fitness, Strength, Sprinting, Sneaking, Nimble and Lightfooted during everyday on-foot movement.
+
+[h2]Crafting and equipment[/h2]
+[list]
+[*]Craft in the Training Belt category: 2 clean Ripped Sheets + 1 Stone + 2 Planks.
+[*]No additional tools or skill levels are required.
+[*]Base item weight is 10. Native worn-item encumbrance rules apply, currently accounting for approximately 3 under the default worn coefficient.
+[*]A separate body slot allows regular belts and chest rigs to remain equipped.
+[*]Movement penalties follow native total encumbrance and carrying capacity. This mod adds no fixed slowdown.
+[/list]
+
+[h2]Training XP[/h2]
+Wear the belt and move on foot. Every accumulated in-game minute of valid movement awards XP separately to all six physical skills. Neither nearby zombies nor the corresponding skill's normal movement stance are required.
+
+The Training XP Multiplier sandbox option defaults to 1 and accepts decimals from 0.1 to 20.
+[list]
+[*]Default multiplier 1: 5 base XP per skill per in-game minute.
+[*]10 in-game minutes of movement: 50 base XP per skill.
+[*]1 in-game hour of movement: 300 base XP per skill.
+[/list]
+[b]Base XP per skill = valid movement game minutes × 5 × training multiplier.[/b]
+These amounts enter the native XP calculation. Final gains continue to follow native XP settings, character traits, nutrition and other applicable rules. A separate compatible protein-drink boost can still affect Strength and Fitness; that drink mod is neither included nor required.
+
+Standing still, pushing against a wall without displacement, vehicles, sleep, death and detected abnormal position jumps do not count. Training uses game time spent actually moving, rather than distance traveled. Fast-forward follows the game clock. Sub-minute progress survives save/load, with no offline XP awards. Skills already at level 10 are skipped, and native nutrition restrictions remain effective.
+
+[h2]Training status[/h2]
+The status panel starts hidden whenever a save is entered. Right-click an actual Training Belt and use Show Weight Training Status to open or close it. The panel shows the current multiplier, activity state, remaining movement time until the next award and the most recent actual XP changes. Visibility is remembered only for the current game session.
+
+[h2]Compatibility and notes[/h2]
+[list]
+[*]For Project Zomboid 42.21 single-player.
+[*]Mod ID: SuQingWeightTraining.
+[*]Uses Lua and native item, recipe and sandbox scripts. No bundled Java/JAR/DLL and no ZombieBuddy dependency.
+[*]Includes Chinese and English text, a Training Belt item icon and a crafting category icon. These icons do not change the character's worn appearance or the ground model.
+[*]Disabling the mod stops training; XP already awarded through the native system is not removed.
+[/list]

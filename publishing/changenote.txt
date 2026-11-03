@@ -1,0 +1,4 @@
+0.3.2 - Artwork and publishing materials.
+Added original inventory and crafting-category icons, mod icon and cover.
+Training, XP rates, recipe, encumbrance and saved progress are unchanged.
+新增负重带物品图标、制作分类图标、模组图标与封面；训练机制和数值保持。

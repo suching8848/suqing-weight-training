@@ -1,0 +1,77 @@
+[h1]蘇清的负重训练[/h1]
+穿上自制负重带，在日常徒步移动中练习体格、力量、冲刺、潜行、灵活和轻巧。
+
+[h2]制作与穿戴[/h2]
+[list]
+[*]在合成面板的“负重带”分类制作：干净碎布条×2＋石块×1＋木板×2。
+[*]无需额外工具或技能等级。
+[*]负重带本体重量为10，穿戴负重遵循原版规则；当前默认穿戴系数下约计入3负重。
+[*]使用独立穿戴槽，可与普通腰带、胸挂共存。
+[*]移速由人物总负重和负重上限按原版计算，本模组不额外施加固定减速。
+[/list]
+
+[h2]训练经验[/h2]
+穿戴负重带并实际徒步移动，每累计1游戏分钟，为六项体能技能分别结算一次经验。训练不要求附近有僵尸，也不要求采用对应技能的动作姿势。
+
+沙盒“训练经验倍率”默认1，可调范围0.1–20，支持小数。
+[list]
+[*]默认倍率1：每项技能每1游戏分钟获得5点基础经验。
+[*]累计移动10游戏分钟：每项50点基础经验。
+[*]累计移动1游戏小时：每项300点基础经验。
+[/list]
+[b]每项基础经验＝有效移动游戏分钟×5×沙盒训练倍率。[/b]
+这只是送入原版经验结算的基础数值，最终增量继续遵循原版经验设置、人物特质和营养等规则。适用的独立蛋白饮料强化可继续作用于力量、体格经验；本模组不包含或强制依赖该饮料模组。
+
+站立、顶墙无位移、乘车、睡眠、死亡和检测到的异常位置跳变不计训练。按实际移动期间经过的游戏时间累计，不按行走距离发放经验；游戏加速随游戏时钟计算。未满1分钟的训练余数保存在角色数据中，存读档不补发离线经验。满10级的技能不再发放经验，原版营养限制继续有效。
+
+[h2]查看状态[/h2]
+训练状态面板每次读档默认隐藏。右键实际负重带，选择“显示负重训练状态”即可打开或关闭，查看当前倍率、训练状态、下次结算所需移动时间及最近的实际经验增量。面板显隐只在本次游戏会话内有效。
+
+[h2]兼容与说明[/h2]
+[list]
+[*]适用：Project Zomboid 42.21，单人游戏。
+[*]Mod ID：SuQingWeightTraining。
+[*]使用Lua与原版物品、配方、沙盒脚本；不包含自带Java/JAR/DLL，没有ZombieBuddy依赖。
+[*]提供中英文文本、负重带物品图标与制作分类图标；图标不改变角色穿戴外观或地面模型。
+[*]禁用模组会停止训练，已获得的原版经验不会撤销。
+[/list]
+
+[h1]SuQing's Weight Training[/h1]
+Wear a handmade Training Belt and train Fitness, Strength, Sprinting, Sneaking, Nimble and Lightfooted during everyday on-foot movement.
+
+[h2]Crafting and equipment[/h2]
+[list]
+[*]Craft in the Training Belt category: 2 clean Ripped Sheets + 1 Stone + 2 Planks.
+[*]No additional tools or skill levels are required.
+[*]Base item weight is 10. Native worn-item encumbrance rules apply, currently accounting for approximately 3 under the default worn coefficient.
+[*]A separate body slot allows regular belts and chest rigs to remain equipped.
+[*]Movement penalties follow native total encumbrance and carrying capacity. This mod adds no fixed slowdown.
+[/list]
+
+[h2]Training XP[/h2]
+Wear the belt and move on foot. Every accumulated in-game minute of valid movement awards XP separately to all six physical skills. Neither nearby zombies nor the corresponding skill's normal movement stance are required.
+
+The Training XP Multiplier sandbox option defaults to 1 and accepts decimals from 0.1 to 20.
+[list]
+[*]Default multiplier 1: 5 base XP per skill per in-game minute.
+[*]10 in-game minutes of movement: 50 base XP per skill.
+[*]1 in-game hour of movement: 300 base XP per skill.
+[/list]
+[b]Base XP per skill = valid movement game minutes × 5 × training multiplier.[/b]
+These amounts enter the native XP calculation. Final gains continue to follow native XP settings, character traits, nutrition and other applicable rules. A separate compatible protein-drink boost can still affect Strength and Fitness; that drink mod is neither included nor required.
+
+Standing still, pushing against a wall without displacement, vehicles, sleep, death and detected abnormal position jumps do not count. Training uses game time spent actually moving, rather than distance traveled. Fast-forward follows the game clock. Sub-minute progress survives save/load, with no offline XP awards. Skills already at level 10 are skipped, and native nutrition restrictions remain effective.
+
+[h2]Training status[/h2]
+The status panel starts hidden whenever a save is entered. Right-click an actual Training Belt and use Show Weight Training Status to open or close it. The panel shows the current multiplier, activity state, remaining movement time until the next award and the most recent actual XP changes. Visibility is remembered only for the current game session.
+
+[h2]Compatibility and notes[/h2]
+[list]
+[*]For Project Zomboid 42.21 single-player.
+[*]Mod ID: SuQingWeightTraining.
+[*]Uses Lua and native item, recipe and sandbox scripts. No bundled Java/JAR/DLL and no ZombieBuddy dependency.
+[*]Includes Chinese and English text, a Training Belt item icon and a crafting category icon. These icons do not change the character's worn appearance or the ground model.
+[*]Disabling the mod stops training; XP already awarded through the native system is not removed.
+[/list]
+
+[url=https://github.com/suching8848/suqing-weight-training]Git源码 / Source[/url]

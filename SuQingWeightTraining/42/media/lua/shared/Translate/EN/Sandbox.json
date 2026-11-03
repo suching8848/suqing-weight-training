@@ -1,0 +1,5 @@
+{
+  "Sandbox_SuQingWeightTraining": "SuQing's Weight Training",
+  "Sandbox_SuQingWeightTraining_XPMultiplier": "Training XP multiplier",
+  "Sandbox_SuQingWeightTraining_XPMultiplier_tooltip": "The default multiplier is 1.\nEach physical skill gains 5 base XP per accumulated game minute of movement while wearing the belt: 50 for 10 minutes and 300 for 1 game hour.\nBase XP = qualifying game minutes of movement × 5 × this multiplier.\nFinal XP also includes native XP settings, character traits and applicable protein-drink bonuses."
+}

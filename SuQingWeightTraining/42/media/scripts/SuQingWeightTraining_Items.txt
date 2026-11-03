@@ -1,0 +1,20 @@
+module SuQingWeightTraining
+{
+    imports
+    {
+        Base,
+    }
+
+    item TrainingBelt
+    {
+        DisplayCategory = Accessory,
+        ItemType = base:clothing,
+        Weight = 10.0,
+        Icon = SQWT_TrainingBelt,
+        BodyLocation = suqingweighttraining:suqingtrainingbelt,
+        ClothingItem = Belt,
+        WorldStaticModel = Base.Belt_Ground,
+        FabricType = Cotton,
+        Tooltip = Tooltip_SuQingWeightTraining_TrainingBelt,
+    }
+}

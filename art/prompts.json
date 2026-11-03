@@ -1,0 +1,9 @@
+{
+  "item": "Use case: stylized-concept\nAsset type: transparent inventory sprite for a Project Zomboid survival-game mod, square.\nPrimary request: Create ONE recognizable handmade weighted training belt, viewed isometrically from above, intended to read clearly when reduced to a 64 by 64 pixel inventory icon. A short broad weathered olive cloth belt with a large simple steel buckle and two rectangular wooden-and-stone weight pouches lashed with off-white ripped cloth. Visually a compact wearable weighted belt, not a backpack, not a dumbbell, not a championship belt.\nStyle: original survival-game pixel-art sprite, chunky crisp pixel clusters, dark clean 1-pixel-like silhouette, restrained texture, simple shaded planes, muted olive, warm brown, pale cloth, steel grey. Large simple forms.\nComposition: belt curled into an open shallow oval, entire single object centered with 10 percent clear margin, readable at tiny size.\nBackground: genuinely transparent alpha, no cast floor shadow, no checkerboard, no background color.\nText: none. No logos, letters, numbers, watermark, scenery, duplicate views, frames or UI.",
+  "category": "Code-native SVG glyph; final source art/category-training-belt.svg. Generated textured category candidates rejected for poor tiny-size clarity.",
+  "reference_notes": {
+    "character": "Original character reference retained locally under art/references/character-reference.png",
+    "style": "Approved earlier cover retained locally under art/references/approved-container-cover.png",
+    "standard": "Project AGENTS.md section 7.1; no game version on cover"
+  }
+}

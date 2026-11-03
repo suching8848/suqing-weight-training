@@ -1,0 +1,9 @@
+.validation/
+build/
+__pycache__/
+*.pyc
+legacy/
+art/references/
+docs/release/handoff.md
+tools/install_local.py
+tools/upgrade_local.py

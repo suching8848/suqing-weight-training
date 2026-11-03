@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option SuQingWeightTraining.XPMultiplier
+{
+    type = double,
+    min = 0.1,
+    max = 20,
+    default = 1,
+    page = SuQingWeightTraining,
+    translation = SuQingWeightTraining_XPMultiplier,
+}
