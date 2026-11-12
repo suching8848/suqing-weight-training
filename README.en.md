@@ -1,5 +1,9 @@
 # SuQing's Weight Training
 
+## 42.22.2 offline compatibility candidate
+
+`0.3.3-rc.1` is a local candidate for B42.21–42.22 single-player. Preserves the training belt item ID, worn slot, and existing training records. In-game testing on 42.22.2 is pending. The release notes below cover the published version.
+
 Published publicly on 2026-11-03: [Workshop 3832881857](https://steamcommunity.com/sharedfiles/filedetails/?id=3832881857) · [Git source](https://github.com/suching8848/suqing-weight-training). Native submit and public query checks passed; publication, local installation and gameplay acceptance are separate. The user confirmed the personal 0.3.1 training behavior; the new 0.3.2 artwork remains unaccepted in game and the personal installation is retained.
 
 Wear a handmade Training Belt and train all six physical skills during everyday on-foot movement.
