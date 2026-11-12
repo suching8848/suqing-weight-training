@@ -1,4 +1,2 @@
-0.3.2 - Artwork and publishing materials.
-Added original inventory and crafting-category icons, mod icon and cover.
-Training, XP rates, recipe, encumbrance and saved progress are unchanged.
-新增负重带物品图标、制作分类图标、模组图标与封面；训练机制和数值保持。
+0.3.3-rc.1 · 适配 B42.22.2 单人并保留 B42.21。原生离线回归通过，B42.22.2 游戏内验收待完成。
+0.3.3-rc.1 · B42.22.2 single-player compatibility with continued B42.21 support. Native offline regression passed; B42.22.2 gameplay testing is pending.

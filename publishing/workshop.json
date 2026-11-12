@@ -1,6 +1,6 @@
 {
   "title": "蘇清的负重训练 | SuQing's Weight Training [SP]",
-  "version": "0.3.2",
+  "version": "0.3.3-rc.1",
   "publishedfileid": "3832881857",
   "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3832881857",
   "github": "https://github.com/suching8848/suqing-weight-training",
@@ -12,5 +12,6 @@
   ],
   "visibility": "public",
   "status": "verified_public",
-  "verified_at": "2026-11-03T17:37:23.617935+08:00"
+  "verified_at": "2026-11-12T16:20:07.029306+08:00",
+  "content_tree_sha256": "8acbaefc7087b8589dc0cd3646fc16dda06984a08325c1090b61742d1d57a533"
 }

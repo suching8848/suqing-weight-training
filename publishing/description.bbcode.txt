@@ -29,7 +29,7 @@
 
 [h2]兼容与说明[/h2]
 [list]
-[*]适用：Project Zomboid 42.21，单人游戏。
+[*]适用 B42.21–42.22 单人，版本 0.3.3-rc.1。B42.22.2 穿戴和训练回归离线通过，游戏内待验收。
 [*]Mod ID：SuQingWeightTraining。
 [*]使用Lua与原版物品、配方、沙盒脚本；不包含自带Java/JAR/DLL，没有ZombieBuddy依赖。
 [*]提供中英文文本、负重带物品图标与制作分类图标；图标不改变角色穿戴外观或地面模型。
@@ -67,7 +67,7 @@ The status panel starts hidden whenever a save is entered. Right-click an actual
 
 [h2]Compatibility and notes[/h2]
 [list]
-[*]For Project Zomboid 42.21 single-player.
+[*]For B42.21–42.22 single-player, version 0.3.3-rc.1. Equipment and training regressions passed offline on B42.22.2; gameplay testing is pending.
 [*]Mod ID: SuQingWeightTraining.
 [*]Uses Lua and native item, recipe and sandbox scripts. No bundled Java/JAR/DLL and no ZombieBuddy dependency.
 [*]Includes Chinese and English text, a Training Belt item icon and a crafting category icon. These icons do not change the character's worn appearance or the ground model.
